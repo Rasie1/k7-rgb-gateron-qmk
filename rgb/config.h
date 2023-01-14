@@ -33,10 +33,10 @@
 #define MATRIX_ROW_PINS { A10, D11, D10, D9, D8 }
 
 // Connects each switch in the dip switch to the GPIO pin of the MCU
-#define DIP_SWITCH_PINS { D6, D5 }
+#define DIP_SWITCH_PINS { D4, D1 }
 
 /* LED Status indicators */
-#define LED_CAPS_LOCK_PIN D4
+#define LED_CAPS_LOCK_PIN D2
 #define LED_PIN_ON_STATE  1
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */

@@ -49,7 +49,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                   {   KC_NO,     KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   RESET,    KC_HOME, KC_PGDN, KC_END,    KC_NO,     KC_NO,     KC_NO,     KC_NO    }
                },
       [_FN2] = {  {   KC_GRV,    KC_BRID,   KC_BRIU,   KC_APP,  KC_NO,    RGB_VAD, RGB_VAI,  KC_MPRV, KC_MPLY, KC_MNXT,   KC_MUTE,   KC_VOLD,   KC_VOLU,   KC_NO    },
-                  {   RESET,     KC_NO,     KC_NO,     KC_NO,   RGB_M_R,  KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_INSERT, KC_PSCREEN,RGB_SPD,   RGB_SPI  },
+                  {   RESET,     KC_NO,     KC_NO,     KC_NO,   RGB_M_R,  KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,     RGB_SPD,   RGB_SPI,   KC_NO     },
                   {   KC_NO,     KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   KC_NO,     KC_NO,     KC_NO,     KC_NO,     KC_NO    },
                   {   KC_NO,     KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   KC_NO,    KC_NO,   KC_NO,   RGB_RMOD,  RGB_MOD,   KC_NO,     KC_NO,     RGB_HUI  },
                   {   KC_GRV,    KC_NO,     KC_NO,     KC_NO,   KC_NO,    KC_NO,   RESET,    RGB_SAD, RGB_HUD, RGB_SAI,   KC_NO,     KC_NO,     KC_NO,     RGB_TOG  }
